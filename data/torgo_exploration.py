@@ -81,7 +81,7 @@ def play_audio(arguments: argparse.Namespace):
     prompt = prompt_file.readline()
     prompt_file.close()
     print(f'This prompt was given and executed: {prompt}')
-    time.sleep(3)
+    time.sleep(2)
 
     # create the corresponding audio-file-path and play the audio
     audio_path = os.path.join(
